@@ -1,0 +1,16 @@
+{
+  "name": "hammerhead-spread-issue",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve:ok": "cd gatsby-site-ok && gatsby build && gatsby serve",
+    "serve:notok": "cd gatsby-site-notok && gatsby build && gatsby serve",
+    "test": "testcafe 'chrome' test-dynamic.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.1.13",
+    "testcafe": "^1.0.1"
+  }
+}
